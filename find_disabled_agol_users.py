@@ -1,3 +1,9 @@
+# Log into an ArcGIS Online Organization and find all the disabled users.
+# Count the number of items owned by each disabled user and print a list.
+# 
+# Requires: ArcGIS API for Python (https://developers.arcgis.com/python/)
+#           Python 3.x
+#
 from arcgis.gis import GIS
 from getpass import getpass
 from operator import attrgetter
